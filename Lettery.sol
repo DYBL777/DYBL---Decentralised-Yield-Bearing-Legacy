@@ -518,4 +518,9 @@ contract Lettery is VRFConsumerBaseV2, Ownable, ReentrancyGuard {
         treasuryOperatingReserve -= amount;
         // Placeholder for LINK transfer to sub
     }
+}    // ====================================================================
+    // FUTURE-PROOF UPGRADE PATH (Chainlink-recommended)
+    // ====================================================================
+    // Core vault is immutable. Game rules can be upgraded via proxy + multisig later.
+    // No backdoors today — onlyOwner functions are minimal and one-way.
 }

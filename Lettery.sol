@@ -266,7 +266,11 @@ contract Lettery is VRFConsumerBaseV2, Ownable, ReentrancyGuard {
     function fulfillRandomWords(uint256, uint256[] memory randomWords) internal override {
         if (block.timestamp >= ZERO_REVENUE_TIMESTAMP) treasuryTakeBps = 0;
 
-        // The Eternal Seed – autonomous yield engine
+        // The Ethernal Seed — Lettery
+        // Only 55% of prize pot paid out weekly
+        // 10% permanent seed remains in prize pot forever, compounding
+        // Part (or most) of idle treasury added as rolling decreasing seed to grow pot faster
+        // (withdraws back to treasury when needed for ops/giveaways)
         uint256 seed = (prizePot + treasuryOperatingReserve + treasuryGiftReserve) * ETERNAL_SEED_BPS / 10000;
         if (seed > 0) {
             if (seed <= treasuryOperatingReserve) {

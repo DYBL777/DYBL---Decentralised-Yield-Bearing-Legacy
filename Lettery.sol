@@ -470,7 +470,11 @@ contract Lettery is VRFConsumerBaseV2, Ownable, ReentrancyGuard {
 
     // ═════════════════════════════════════════════════════════════════════════════
     // INTERNAL HELPERS
-    // ═════════════════════════════════════════════════════════════════════════════
+    // ═════════════════════════════════════════════════════════════════════════════    
+    // 42-char meme combo generation from VRF randomness
+    // Current: Simple Fisher-Yates shuffle with chained keccak256 for entropy refresh
+    // Pros: Easy to read, sufficient uniformity for lottery use, low risk of bias
+    // Future improvement: Bit-extraction from single VRF word for gas savings + zero theoretical bias
     function _generateMemeCombo(uint256 randomness) internal pure returns (string memory) {
         bytes1[42] memory chars = MEME_ALPHABET;
         string memory combo = "";

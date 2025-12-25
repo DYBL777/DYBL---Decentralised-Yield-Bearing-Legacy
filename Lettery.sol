@@ -492,11 +492,18 @@ contract Lettery is VRFConsumerBaseV2, Ownable, ReentrancyGuard {
 
     function _forfeitYield(address user) internal returns (uint256) {
         uint256 yield = getUserYield(user);
-        if (yield == 0) return 0;
-        uint256 forfeit = yield * 5000 / 10000; // approximately 50% penalty
-        treasuryOperatingReserve += forfeit;
-        streakWeeks[user] = 0;
-        return forfeit;
+    if (yield == 0) return 0;
+
+    // 50% forfeit to treasury (ops buffer)
+    uint256 forfeitToTreasury = yield / 2;
+    treasuryOperatingReserve += forfeitToTreasury;
+
+    // Other 50% to prize pot (bigger jackpots for everyone)
+    uint256 forfeitToPrize = yield - forfeitToTreasury;
+    prizePot += forfeitToPrize;
+
+    streakWeeks[user] = 0;
+    return yield; // return total forfeited amount
     }
 
     function _requestRandomness() internal {

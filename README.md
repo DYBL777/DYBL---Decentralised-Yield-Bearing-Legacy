@@ -3,6 +3,7 @@
 **Lettery: The flagship perpetual yield-bearing lottery primitive**
 
 A no-loss, immutable lottery where:
+- Lettery is a 42 char meme/name 6/42 no repeat game
 - 100% of ticket sales go directly into a transparent yield-bearing vault
 - Chainlink VRF ensures provably fair draws
 - A unique behavioral toggle encourages consistent saving

@@ -56,7 +56,7 @@ You may use the code under BUSL, but commercial use of the names/branding requir
 
 ## Support the Inventor
 I'm building DYBL full-time while caring for family — no team, no funding.  
-If the vision resonates and you'd like to help it grow (audits, scaling, or just keeping the lights on), donations are deeply appreciated:
+If the vision resonates and you'd like to help it grow (audits, scaling, or just wanting to support), donations are deeply appreciated:
 
 ETH / STABLES / LINK → `dybl777 (0xC5A644265cAf08A15F5dabe1Aabe0566dAD1649C)`
 

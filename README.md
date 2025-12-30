@@ -27,7 +27,8 @@ Designed to become a standard primitive for lotteries, insurance, pensions, subs
 
 **Status**: Research prototype seeking technical partnership (especially Chainlink, Aave, and Patrick Collins-inspired teams)
 
-DMs open on X: @dybl77
+DMs open on X: @dybl77 
+Discord: dybl777
 
 ## Special Invitation to Collaborate
 This primitive was designed from the ground up around Chainlink oracles and automation, with 100% of funds flowing forever into an Aave vault for transparent yield.

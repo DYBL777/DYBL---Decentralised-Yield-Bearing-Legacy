@@ -7,7 +7,7 @@ What if Chainlink had a flagship consumer app that proved crypto works for regul
 Lettery: The flagship perpetual yield-bearing lottery primitive
 
 A no-loss, immutable lottery where:
-- **The Eternal Seed: a self-sustaining compounding engine keeps growth alive indefinitely**
+- **The Eternal Seed**: a self-sustaining compounding engine keeps growth alive indefinitely
 - Lettery, a 42 char meme/name viral game
 - 100% of ticket sales go directly into a transparent yield-bearing vault
 - Chainlink VRF ensures provably fair draws

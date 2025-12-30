@@ -63,6 +63,3 @@ ETH / STABLES / LINK → `dybl777 (0xC5A644265cAf08A15F5dabe1Aabe0566dAD1649C)`
 Thank you — every bit helps to turn this into the legacy it can be.  
 DYBL777
 
-Thank you  
-
-DYBL777

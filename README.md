@@ -51,7 +51,7 @@ If any of the above (or similar teams) are interested in leading the audit, refi
 Full license text in LICENSE file.
 
 ## Trademarks™
-"DYBL", "Lettery", "Ethernal Seed" and "Eternal Seed" are trademarks of the DYBL project.  
+"DYBL", "Lettery", and "Eternal Seed" are trademarks of the DYBL project.  
 You may use the code under BUSL, but commercial use of the names/branding requires permission.
 
 ## Support the Inventor

@@ -1,15 +1,19 @@
 # DYBL — Decentralised Yield-Bearing Legacy
 
-**Lettery: The flagship perpetual yield-bearing lottery primitive**
+"DYBL — The Payment Primitive Chainlink Needs
+
+What if Chainlink had a flagship consumer app that proved crypto works for regular people?
+
+Lettery: The flagship perpetual yield-bearing lottery primitive
 
 A no-loss, immutable lottery where:
-- Lettery is a 42 char meme/name 6/42 no repeat game
+- **The Eternal Seed: a self-sustaining compounding engine keeps growth alive indefinitely**
+- Lettery, a 42 char meme/name viral game
 - 100% of ticket sales go directly into a transparent yield-bearing vault
 - Chainlink VRF ensures provably fair draws
 - A unique behavioral toggle encourages consistent saving
 - Treasury revenue sunsets to zero forever
 - Legacy mode enables on-chain inheritance
-- **The Eternal Seed: a self-sustaining compounding engine that keeps growth alive indefinitely**
 
 Designed to become a standard primitive for lotteries, insurance, pensions, subscriptions, and more.
 

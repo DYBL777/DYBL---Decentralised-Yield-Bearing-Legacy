@@ -17,6 +17,14 @@ A no-loss, immutable lottery where:
 
 Designed to become a standard primitive for lotteries, insurance, pensions, subscriptions, and more.
 
+## Why DYBL Succeeds Where Others Failed
+
+| Feature | PoolTogether | DYBL |
+|---------|--------------|------|
+| Works at low yield? | No (needs 5%+) | **Yes (Eternal Seed)** |
+| Treasury endgame | ~10% forever | **0% (after sunset)** |
+| Prize sustainability | Declining | **Exponentially growing** |
+
 **Status**: Research prototype seeking technical partnership (especially Chainlink, Aave, and Patrick Collins-inspired teams)
 
 DMs open on X: @dybl77

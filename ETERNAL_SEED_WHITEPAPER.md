@@ -47,7 +47,7 @@ Lettery serves as a flagship demonstration of the Eternal Seed in action, blendi
 
 In Lettery, users buy $3 "tickets" (in USDC) that flow into an Aave vault. The pot earns base yield, but the Eternal Seed retains ~10% weekly for compounding and injects treasury liquidity (starting high, decreasing over time) to accelerate jackpot sizes. Even if yields drop, the pot still grows from retained inflows and forfeits.
 
-The Pavlovian toggle adds behavioral depth: "Savers" (consistent buyers) get 100% of their proportional yield; "gamblers" (who opt for prize draws) get ~50%, with the difference forfeited to the pot/treasury. This conditions users toward saving while feeding the Seed for bigger shared upside.
+The Pavlovian toggle adds behavioral depth: "Savers" (consistent buyers) get 100% of their proportional yield; "gamblers" (who opt for free tickets) get ~50%, with the difference forfeited to the pot/treasury. This conditions users toward saving while feeding the Seed for bigger shared upside.
 
 Weekly Chainlink VRF draws (from a 42-character meme alphabet) pay out ~55% of the pot in tiered prizes, leaving the rest to compound. The result: sustainable jackpots that grow exponentially early (via rolling seeds) and stabilize long-term, even at 0% external yield.
 

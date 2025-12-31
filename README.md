@@ -1,6 +1,6 @@
 # DYBL — Decentralised Yield-Bearing Legacy
 
-"DYBL — The Payment Primitive Chainlink Needs
+DYBL — The Payment Primitive Chainlink Needs
 
 What if Chainlink had a flagship consumer app that proved crypto works for regular people?
 

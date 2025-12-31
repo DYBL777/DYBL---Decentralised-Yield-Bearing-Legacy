@@ -1,6 +1,21 @@
-# The Eternal Seed: A Sustainable Compounding Mechanism for Yield-Bearing Payments and Subscriptions
+  <h1>The Eternal Seed</h1>
+  <h3>A Sustainable Compounding Mechanism<br>for Yield-Bearing Payments & Subscriptions</h3>
+  <br>
+  <em>DYBL777 ・ December 31, 2025</em>
+</p>
+
+<br>
 
 ## Abstract
+
+The Eternal Seed is a novel economic primitive that transforms recurring payments and subscriptions into **regenerative, yield-generating flows**  even in low/zero-yield environments.
+
+It combines:
+- **Fixed baseline retention** for perpetual compounding  
+- **Rolling decreasing treasury injections** for strong early growth  
+- Optional **behavioral forfeit flywheel** for consistency rewards
+
+Example flagship application: **Lettery** a no-loss lottery with Pavlovian saver/gambler toggle.
 
 The Eternal Seed is a novel economic primitive designed to transform recurring payments and subscriptions into regenerative, yield-generating flows. By retaining a portion of inflows for perpetual compounding and recycling idle treasury liquidity through a rolling, decreasing injection system, it creates self-sustaining growth even in low-yield environments. This mechanism addresses the limitations of traditional banking (near-zero interest) and existing DeFi yield models (volatility and decay), enabling shared prosperity without risking principal.
 

@@ -103,5 +103,5 @@ Lettery demonstrates its gamified potential, but the primitive shines brightest 
 
 Let's build it.
 
-— DYBL777  
+DYBL777  
 December 30, 2025

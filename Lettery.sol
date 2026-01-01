@@ -87,9 +87,9 @@ contract Lettery is VRFConsumerBaseV2, Ownable, ReentrancyGuard {
     // ═════════════════════════════════════════════════════════════════════════════
     // THE OFFICIAL DYBL 42-CHARACTER MEME ALPHABET
     // ═════════════════════════════════════════════════════════════════════════════
+    /// Every weekly draw = 6 unique symbols from these 42 → ~5.2 million possible winning sets (order doesn't matter)
     /// A–Z (26) + 0–9 (10) + ! @ # $ % & (6) = exactly 42 symbols forever
     /// This set is immutable, hard-coded, and defines the entire game.
-    /// Every weekly draw = 6 unique symbols from these 42 → 42P6 ≈ 5.2 billion possible combos
     bytes1[42] public constant MEME_ALPHABET = [
         bytes1(0x41),0x42,0x43,0x44,0x45,0x46,0x47,0x48,0x49,0x4A, // A–J
         0x4B,0x4C,0x4D,0x4E,0x4F,0x50,0x51,0x52,0x53,0x54, // K–T

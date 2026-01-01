@@ -1,3 +1,26 @@
+# ⚠️ DEPRECATED - DO NOT USE ⚠️
+
+**This repository contains V0 prototype code with known security vulnerabilities.**
+
+## 🚨 Critical Issues in This Version:
+- Cashback double-claim exploit
+- Missing input validation
+- Match counting bugs
+
+## ✅ Current Version:
+**Audit-ready V1 code:** https://github.com/DYBL777/DYBL-v1
+
+---
+
+**This repo is archived for historical reference only.**
+
+**DO NOT deploy this code to any network.**
+
+---
+
+# Original V0 README Below:
+
+---
 # DYBL — Decentralised Yield-Bearing Legacy
 
 DYBL — The Payment Primitive Chainlink Needs
